@@ -49,7 +49,7 @@ export default async function Page({ searchParams }: any) {
 }
 ```
 
-`local-d1` uses [`better-sqlite`](https://github.com/WiseLibs/better-sqlite3) internally, and the parameters of `ensureInitialized` are directly forwarded to `better-sqlite`.
+`local-d1` uses [`better-sqlite3`](https://github.com/WiseLibs/better-sqlite3) internally, and the parameters of `ensureInitialized` are directly forwarded to `better-sqlite3`.
 
 
 ## Caveats
